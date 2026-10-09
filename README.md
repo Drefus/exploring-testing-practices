@@ -44,8 +44,13 @@ Escolha uma prática ou dado de teste relevante e explique com suas próprias pa
 
 ## Respostas
 
-Repositório: `<URL_DO_REPOSITÓRIO>`
+Repositório: `https://github.com/microsoft/vscode`
 
-URL TestMiner: `<URL_NO_TESTMINER>`
+URL TestMiner: `https://andrehora.github.io/testminer/#microsoft/vscode`
 
-Explicação: `<SUA_EXPLICAÇÃO>`
+Explicação: Com o TestMiner, podemos ver que no projeto do VS Code utilizam uma prática muito interessante, que é o smoke test, o qual busca testar se as funcionalidades mais críticas e básicas da aplicação estão funcionando. Tem como princípios ser superficial e rápido, ter ampla cobertura e pouca profundidade, ser executado logo após o build e de forma automática.
+
+Ex:
+<img width="700" height="388" alt="image" src="https://github.com/user-attachments/assets/d4960157-6358-45c9-9a67-9f831dcd652f" />
+
+Nesse teste ele faz um teste simple se um funcionalidade crucial, que é o terminal está abrindo, aceitando imputs e os executando.
